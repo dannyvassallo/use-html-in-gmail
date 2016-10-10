@@ -14,7 +14,8 @@ var mailOptions = {
     from: process.env.FROM, // sender address
     to: recipients.toString(), // list of receivers
     subject: process.env.SUBJECT, // Subject line
-    html: emailTemplate
+    html: emailTemplate,
+    text: process.env.TEXT
 };
 
 transporter.sendMail(mailOptions, function(error, info){
