@@ -12,7 +12,8 @@ var emailTemplate = fs.createReadStream('template.html');
 // setup e-mail data with unicode symbols
 var mailOptions = {
     from: process.env.FROM, // sender address
-    to: recipients.toString(), // list of receivers
+    to: process.env.FROM
+    bcc: recipients.toString(), // list of receivers
     subject: process.env.SUBJECT, // Subject line
     html: emailTemplate,
     text: process.env.TEXT
