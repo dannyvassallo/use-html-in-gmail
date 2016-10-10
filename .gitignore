@@ -1,3 +1,4 @@
 node_modules
 .env
 recipients.txt
+npm-debug.log
