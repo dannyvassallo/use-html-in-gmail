@@ -44,5 +44,5 @@ You can change the email template by altering `template.html`
 
 REMEMBER: YOU MUST USE INLINE STYLES IN YOUR TEMPLATE.
 
-You can use this tool to create your template, and paste it's contents
-into the html file.
+You can use [this tool](http://templates.mailchimp.com/resources/inline-css/) to create your template, and paste it's contents
+into the `template.html` file.
