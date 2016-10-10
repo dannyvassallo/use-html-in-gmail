@@ -24,15 +24,19 @@ email3@hotmail.com
 
 Save it.
 
+run `npm start` to send emails.
+
 On the first attempt you may be blocked by gmail. Open the email they send you.
 
 It should look like this:
 
+![security](https://s3.amazonaws.com/tsm-signature/security.png)
 
 Click the link highlighted in the image.
 
 Update the following option:
 
+![Alt text](https://s3.amazonaws.com/tsm-signature/options.png)
 
 Your email should now send.
 
