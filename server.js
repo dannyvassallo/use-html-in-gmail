@@ -7,7 +7,7 @@ var transporter = nodemailer.createTransport(process.env.EMAIL_CREDS);
 
 var recipients = fs.readFileSync('recipients.txt').toString().split("\n");
 
-var emailTemplate = fs.createReadStream('template.html');
+var emailTemplate = fs.createReadStream('template2.html');
 
 // setup e-mail data with unicode symbols
 var mailOptions = {
